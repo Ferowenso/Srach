@@ -1,0 +1,81 @@
+.box-outer {
+    border: 1px solid currentcolor;
+    zoom: 100%;
+    margin-bottom: .5em;
+    padding-bottom: .5em;
+    align-self: center;
+}
+
+.box-post{
+    border: 1px solid currentcolor;
+    padding: 20px;
+    background: #d6daf0;
+    margin: -5px;
+    margin-top: 10px;
+}
+
+.skip-posts{
+    padding: 0px;
+    margin-bottom: -5px;
+    /*margin: px;*/
+}
+
+.post-info{
+    padding-right: 5px;
+}
+
+.post-text{
+    overflow-wrap: anywhere;
+    /*background: #eef2ff;*/
+
+    /*max-width: 720px;*/
+}
+
+.post-username{
+
+}
+
+.post-datetime{
+
+}
+.all-posts-button{
+    /*width: 10px;*/
+    height: 20px;
+    --lumo-button-size: 10px;
+
+}
+
+.dialog-post-form-close{
+    --lumo-button-size: 30px;
+}
+
+.dialog-post-form-text{
+    width: 300px;
+    height: 200px;
+}
+
+.page-anchor{
+    padding: 5px;
+}
+
+.pages-span{
+    align-self: center;
+}
+
+.thread-name{
+    font-weight: bold;
+}
+
+.header-title{
+    font-size: xxx-large;
+    align-self: center;
+}
+
+.form-post-thread{
+    align-items: center;
+    width: 200px;
+}
+
+.button-post-thread{
+    align-self: center;
+}

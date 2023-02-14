@@ -1,0 +1,23 @@
+version: "3"
+
+services:
+  postgres:
+    image: 'postgres:13.1-alpine'
+    container_name: db
+    ports:
+      - 5432:5432
+    environment:
+      POSTGRES_DB: srach
+      POSTGRES_USER: user
+      POSTGRES_PASSWORD: user
+
+  srach:
+    build: .\SrachProject
+    container_name: srach
+    ports:
+      - "8080:8080"
+    environment:
+      SPRING_DATASOURCE_URL: jdbc:postgresql://db:5432/srach
+    depends_on:
+      - postgres
+
